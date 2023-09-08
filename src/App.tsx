@@ -4,6 +4,7 @@ import Intro from './sections/Intro/Intro.tsx';
 import SectionDivider from './components/SectionDivider.tsx';
 import About from './sections/About/About.tsx';
 import Projects from './sections/Projects/Projects.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <SectionDivider />
         <About />
         <Projects />
+        <Footer />
     </div>
   )
 }
