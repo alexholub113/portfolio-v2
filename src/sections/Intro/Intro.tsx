@@ -1,6 +1,6 @@
-﻿import profilePic from "../../public/images/profile/developer-pic-1.png";
-import AppearingDiv from '../components/animaitons/AppearingDiv.tsx';
-import FallingDiv from '../components/animaitons/FallingDiv.tsx';
+﻿import profilePic from "../../../public/images/profile/developer-pic-1.png";
+import AppearingDiv from '../../components/animaitons/AppearingDiv.tsx';
+import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
@@ -31,7 +31,7 @@ const Intro = () => {
                     Contact me here
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </a>
-                <a href="../../public/CV_OleksandrHolub.pdf" download className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
+                <a href="../../../public/CV_OleksandrHolub.pdf" download className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
                 outline-none focus::scale-110 hover:scale-110 active:scale-105 transition cursor-pointer
                 border border-black/10">
                     Download CV

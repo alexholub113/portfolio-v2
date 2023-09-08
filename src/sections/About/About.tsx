@@ -1,5 +1,5 @@
-﻿import FallingDiv from '../components/animaitons/FallingDiv.tsx';
-import SectionHeading from '../components/SectionHeading.tsx';
+﻿import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
+import SectionHeading from '../../components/SectionHeading.tsx';
 
 const About = () => {
     return (
