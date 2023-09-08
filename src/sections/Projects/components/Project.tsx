@@ -1,7 +1,7 @@
-﻿import { ProjectData } from '../../../lib/data.ts';
-import { motion, useScroll, useTransform } from 'framer-motion';
+﻿import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { BsArrowRight, BsGithub } from 'react-icons/bs';
+import { ProjectData } from '../../../lib/types.ts';
 
 const Project = (project: ProjectData) => {
     const ref = useRef<HTMLDivElement>(null);

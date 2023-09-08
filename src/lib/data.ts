@@ -1,14 +1,11 @@
-import corpCommentImg from "../../public/images/projects/corpcomment.png";
-import wordAnalyticsImg from "../../public/images/projects/wordanalytics.png";
+import corpCommentImg from "../files/images/projects/corpcomment.png";
+import wordAnalyticsImg from "../files/images/projects/wordanalytics.png";
 import React from 'react';
 import { LuGraduationCap } from 'react-icons/lu';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
+import { ExperienceData, NavigationLinkData, ProjectData, SkillsData } from './types.ts';
 
-type NavigationLinkData = {
-  name: string;
-  hash: string;
-};
 export const links: NavigationLinkData[] = [
   {
     name: "Home",
@@ -36,15 +33,6 @@ export const links: NavigationLinkData[] = [
   },
 ];
 
-export type ProjectData = {
-  title: string;
-  description: string;
-  tags: string[];
-  imageUrl: string;
-  githubUrl: string;
-  projectUrl: string;
-};
-
 export const projectsData: ProjectData[] = [
   {
     title: "CorpComment",
@@ -65,11 +53,6 @@ export const projectsData: ProjectData[] = [
     projectUrl: "https://www.oleksandrholub.com",
   },
 ];
-
-type SkillsData = {
-  category: string;
-  skills: string[];
-};
 
 export const skillsData: SkillsData[] = [
   {
@@ -97,14 +80,6 @@ export const skillsData: SkillsData[] = [
     skills: ["Git", "GraphQL", "Apollo"],
   }
 ];
-
-type ExperienceData = {
-  title: string;
-  location: string;
-  description: string;
-  icon: React.ReactElement;
-  date: string;
-};
 
 export const experiencesData: ExperienceData[] = [
   {

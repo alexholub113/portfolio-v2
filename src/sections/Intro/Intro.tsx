@@ -1,13 +1,18 @@
-﻿import profilePic from "../../../public/images/profile/developer-pic-1.png";
+﻿import profilePic from "../../files/images/profile/developer-pic-1.png";
 import AppearingDiv from '../../components/animaitons/AppearingDiv.tsx';
 import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
 import { FaGithubSquare } from 'react-icons/fa';
+import { useActiveSectionContext } from '../../context/ActiveSectionContext.tsx';
+import useSectionInView from '../../hooks/useSectionInView.ts';
 
 const Intro = () => {
+    const { ref } = useSectionInView('Home', 0.5);
+    const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
     return (
-        <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+        <section id="home" ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <AppearingDiv className="relative">
                     <img src={profilePic} alt="Alex portrait" width={400} height={400} />
@@ -24,14 +29,20 @@ const Intro = () => {
                 </p>
             </FallingDiv>
             <FallingDiv direction="up" transition={{ delay: 0.1 }} className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium">
-                <a href="#contact" className="
-                group
-                bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full
-                outline-none focus::scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+                <a 
+                    href="#contact"
+                    className="
+                        group
+                        bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full
+                        outline-none focus::scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition" 
+                    onClick={() => {
+                       setActiveSection("Contact");
+                       setTimeOfLastClick(Date.now());
+                   }}>
                     Contact me here
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </a>
-                <a href="../../../public/CV_OleksandrHolub.pdf" download className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
+                <a href="../../files/CV_OleksandrHolub.pdf" download className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
                 outline-none focus::scale-110 hover:scale-110 active:scale-105 transition cursor-pointer
                 border border-black/10">
                     Download CV
