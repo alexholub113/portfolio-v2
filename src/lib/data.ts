@@ -41,6 +41,8 @@ export type ProjectData = {
   description: string;
   tags: string[];
   imageUrl: string;
+  githubUrl: string;
+  projectUrl: string;
 };
 
 export const projectsData: ProjectData[] = [
@@ -50,6 +52,8 @@ export const projectsData: ProjectData[] = [
         "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpCommentImg,
+    githubUrl: "https://www.oleksandrholub.com",
+    projectUrl: "https://www.oleksandrholub.com",
   },
   {
     title: "Word Analytics",
@@ -57,6 +61,8 @@ export const projectsData: ProjectData[] = [
         "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordAnalyticsImg,
+    githubUrl: "https://www.oleksandrholub.com",
+    projectUrl: "https://www.oleksandrholub.com",
   },
 ];
 
