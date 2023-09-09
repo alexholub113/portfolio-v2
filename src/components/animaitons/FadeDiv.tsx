@@ -7,7 +7,7 @@ type AppearingDivProps = {
     animate?: Target;
 } & PropsWithChildren;
 
-const AppearingDiv = ({ children, initial, animate, className = '' }: AppearingDivProps) => {
+const FadeDiv = ({ children, initial, animate, className = '' }: AppearingDivProps) => {
     return (
         <motion.div
             className={className}
@@ -22,4 +22,4 @@ const AppearingDiv = ({ children, initial, animate, className = '' }: AppearingD
     );
 };
 
-export default AppearingDiv;
+export default FadeDiv;

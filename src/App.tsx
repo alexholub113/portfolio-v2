@@ -6,6 +6,7 @@ import About from './sections/About/About.tsx';
 import Projects from './sections/Projects/Projects.tsx';
 import Footer from './components/Footer.tsx';
 import { ActiveSectionContextProvider } from './context/ActiveSectionContext.tsx';
+import Skills from './sections/Skills/Skills.tsx';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
             <SectionDivider />
             <About />
             <Projects />
+            <Skills />
             <Footer />
         </ActiveSectionContextProvider>
     </div>

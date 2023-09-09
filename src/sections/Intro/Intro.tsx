@@ -1,5 +1,5 @@
 ﻿import profilePic from "../../files/images/profile/developer-pic-1.png";
-import AppearingDiv from '../../components/animaitons/AppearingDiv.tsx';
+import FadeDiv from '../../components/animaitons/FadeDiv.tsx';
 import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi';
@@ -14,9 +14,9 @@ const Intro = () => {
     return (
         <section id="home" ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
-                <AppearingDiv className="relative">
+                <FadeDiv className="relative">
                     <img src={profilePic} alt="Alex portrait" width={400} height={400} />
-                </AppearingDiv>
+                </FadeDiv>
             </div>
             <FallingDiv direction="up">
                 <p

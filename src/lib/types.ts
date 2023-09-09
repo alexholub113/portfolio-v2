@@ -16,9 +16,9 @@ export type ProjectData = {
     projectUrl: string;
 };
 
-export type SkillsData = {
+export type SkillData = {
     category: string;
-    skills: string[];
+    subSkills: string[];
 };
 
 export type ExperienceData = {

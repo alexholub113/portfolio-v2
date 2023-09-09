@@ -4,7 +4,7 @@ import React from 'react';
 import { LuGraduationCap } from 'react-icons/lu';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
-import { ExperienceData, NavigationLinkData, ProjectData, SkillsData } from './types.ts';
+import { ExperienceData, NavigationLinkData, ProjectData, SkillData } from './types.ts';
 
 export const links: NavigationLinkData[] = [
   {
@@ -54,30 +54,34 @@ export const projectsData: ProjectData[] = [
   },
 ];
 
-export const skillsData: SkillsData[] = [
+export const skillsData: SkillData[] = [
   {
     category: "Languages",
-    skills: ["JavaScript", "TypeScript", "HTML", "CSS"],
+    subSkills: [".NET C#", "JavaScript", "Java"],
   },
   {
-    category: "Front-End",
-    skills: ["React", "Next.js", "Tailwind", "Framer", "Redux"],
+    category: "Back-End Frameworks",
+    subSkills: ["ASP.NET Web Api", "EF Core", "Node.js", "TypeORM", "Unity3d", "Node.js"],
   },
   {
-    category: "Back-End",
-    skills: ["Node.js", "Express", "Prisma", "MongoDB", "SQL"],
+    category: "Front-End Frameworks",
+    subSkills: ["React.JS", "Next.JS", "Vue.JS", "TypeScript", "Tailwind", "MobX", "Jest"],
   },
   {
     category: "AWS",
-    skills: ["Lambda", "Fargate", "Api Gateway"],
+    subSkills: ["Lambda", "Fargate", "Api Gateway", "DynamoDB", "SNS/SQS", "S3", "Cognito"],
   },
   {
     category: "Databases",
-    skills: ["Oracle", "MS Sql", "PostgreSql", "MongoDB", "Redis", "DynamoDB"],
+    subSkills: ["Oracle", "MS Sql", "PostgreSql", "MongoDB", "Redis", "DynamoDB"],
   },
   {
-    category: "Tools",
-    skills: ["Git", "GraphQL", "Apollo"],
+    category: "Architectures",
+    subSkills: ["Microservices", "Micro-frontends", "CQRS", "DDD", "REST", "Distributed Systems"],
+  },
+  {
+    category: "CI/CD",
+    subSkills: ["Docker", "Jenkins", "GitLab CI/CD", "GitHub Actions", "Octopus Deploy", "Vault", "Terraform"],
   }
 ];
 
