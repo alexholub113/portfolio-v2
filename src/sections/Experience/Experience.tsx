@@ -10,7 +10,7 @@ import SkillTagList from '../../components/SkillTagList.tsx';
 import experienceData from '../../data/experienceData.ts';
 
 const Experience = () => {
-    const { ref } = useSectionInView('Experience');
+    const { ref } = useSectionInView('Experience', 0.25);
     return (
         <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
             <SectionHeading>My experience</SectionHeading>
