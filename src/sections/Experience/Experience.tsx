@@ -7,7 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import React from 'react';
 import SkillTagList from '../../components/SkillTagList.tsx';
-import experienceData from '../../data/experienceData.ts';
+import experienceData from '../../data/experienceData.tsx';
 
 const Experience = () => {
     const { ref } = useSectionInView('Experience', 0.25);

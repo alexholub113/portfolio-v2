@@ -9,9 +9,7 @@ const experienceData: ExperienceData[] = [
         company: "Namecheap, Inc",
         location: "Ukraine/USA",
         description:
-            "At namecheap.com, a domain registrar, my main focus was supporting existing functionality, bug fixing, and minor optimizations.\n" +
-            " In the new project spaceship.com, a product platform for purchasing domains, hosting, and SSL certificates, I worked on expanding the functionality specifically related to domain names.\n" +
-            "My role involved API design, database work, microservice development, frontend development, and participating in the production deployment process.",
+            <span>At namecheap.com and spaceship.com, the domain registrars and product platforms I worked on expanding the functionality specifically related to domain names.<br />My role involved API design, database work, microservice development, frontend development, and participating in the production deployment process.</span>,
         accomplishments: [
             "Developed microservices and micro-frontends to establish highly scalable application architecture, driving $200M of revenue every year.",
             "Used such tools: Vault, Teamcity, Jenkins, Docker, OpenSearch, Kibana.",
@@ -52,14 +50,13 @@ const experienceData: ExperienceData[] = [
         company: "Akvelon (Tideworks Technology)",
         location: "Ukraine",
         description:
-            "Worked on dynamically controlling container handling equipment in a terminal." +
-            " I integrated new functionality into a tightly coupled system, performed extensive" +
-            " refactoring, and wrote numerous procedures in Oracle. Subsequently, I transitioned" +
-            " to a project focused on gaining experience in distributed systems. This involved" +
-            " developing microservices using Java and React, applying Domain-Driven Design (DDD)" +
-            " principles, and utilizing Kafka for messaging. Although unfamiliar with these " +
-            "technologies initially, I dedicated myself to learning and studying extensively," +
-            " making it a highly engaging and enriching experience.",
+            <span>Worked on dynamically controlling container handling equipment in a terminal. I integrated new
+                functionality into a tightly coupled system, performed extensive refactoring, and wrote numerous
+                procedures in Oracle.<br />Subsequently, I transitioned to a project focused on gaining experience
+                in distributed systems. This involved developing microservices using Java and React, applying 
+                Domain-Driven Design (DDD) principles, and utilizing Kafka for messaging. Although unfamiliar 
+                with these technologies initially, I dedicated myself to learning and studying extensively, making
+                it a highly engaging and enriching experience.</span>,
         accomplishments: [
             "Implemented essential back-end functionality for both microservices and monolithic architectures.",
             "Developing applications for the management of automated cranes at container terminals (IoT).",
