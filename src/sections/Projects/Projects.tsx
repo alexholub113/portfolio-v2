@@ -2,7 +2,7 @@
 import SectionHeading from '../../components/SectionHeading.tsx';
 import Project from './components/Project.tsx';
 import useSectionInView from '../../hooks/useSectionInView.ts';
-import {projectsData} from '../../data/projectsData.ts';
+import {projectsData} from '../../data/projectsData.tsx';
 
 const Projects = () => {
     const { ref } = useSectionInView('Projects', 0.5);

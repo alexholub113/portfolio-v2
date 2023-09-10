@@ -9,8 +9,8 @@ export type NavigationLinkData = {
 
 export type ProjectData = {
     title: string;
-    description: string;
-    tags: string[];
+    description: string | React.ReactElement;
+    skills: string[];
     imageUrl: string;
     githubUrl: string;
     projectUrl: string;
