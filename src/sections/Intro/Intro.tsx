@@ -15,7 +15,7 @@ const Intro = () => {
         <section id="home" ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <FadeDiv className="relative">
-                    <img src={profilePic} alt="Alex portrait" width={400} height={400} />
+                    <img src={profilePic} alt="Alex portrait" width={300} height={300} />
                 </FadeDiv>
             </div>
             <FallingDiv direction="up">

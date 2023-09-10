@@ -1,4 +1,4 @@
-﻿import { SectionName } from '../lib/types.ts';
+﻿import { SectionName } from '../types.ts';
 import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from '../context/ActiveSectionContext.tsx';
 import { useEffect } from 'react';

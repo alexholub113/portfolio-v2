@@ -2,7 +2,7 @@
 import useSectionInView from '../../hooks/useSectionInView.ts';
 import { motion } from 'framer-motion';
 import SkillsCard from './components/SkillsCard.tsx';
-import { skillsData } from '../../lib/data.ts';
+import {skillsData} from '../../data/skillsData.ts';
 
 const fadeInAnimationVariants = {
     initial: {

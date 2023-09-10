@@ -1,7 +1,8 @@
 ﻿import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { BsArrowRight, BsGithub } from 'react-icons/bs';
-import { ProjectData } from '../../../lib/types.ts';
+import SkillTagList from '../../../components/SkillTagList.tsx';
+import {ProjectData} from '../../../types.ts';
 
 const Project = (project: ProjectData) => {
     const ref = useRef<HTMLDivElement>(null);
@@ -48,13 +49,7 @@ const Project = (project: ProjectData) => {
                             <BsArrowRight className="opacity-70 group-hover/button:translate-x-1 transition" />
                         </a>
                     </div>
-                    <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-                        {project.tags.map((tag) => (
-                            <li key={tag} className="bg-slate-600 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full">
-                                {tag}
-                            </li>
-                        ))}
-                    </ul>
+                    <SkillTagList tags={project.tags} />
                 </div>
                 <img src={project.imageUrl} alt={project.title}
                      className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl

@@ -23,8 +23,11 @@ export type SkillData = {
 
 export type ExperienceData = {
     title: string;
+    company: string;
     location: string;
     description: string;
+    accomplishments: string[];
+    skills: string[];
     icon: React.ReactElement;
     date: string;
 };

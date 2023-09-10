@@ -1,4 +1,4 @@
-﻿import { SkillData } from '../../../lib/types.ts';
+﻿import {SkillData} from '../../../types.ts';
 
 const SkillsCard = (skill: SkillData) => {
     return (
