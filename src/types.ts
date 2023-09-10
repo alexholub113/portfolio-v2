@@ -26,7 +26,7 @@ export type ExperienceData = {
     company: string;
     location: string;
     description: string;
-    accomplishments: string[];
+    accomplishments?: string[];
     skills: string[];
     icon: React.ReactElement;
     date: string;

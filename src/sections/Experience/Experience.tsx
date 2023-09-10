@@ -43,13 +43,15 @@ const Experience = () => {
                             <p className="!mt-1 !font-normal text-slate-700">
                                 {item.description}
                             </p>
-                            <p className="">
-                                <ul className="ml-5 space-y-1 font-normal text-base text-slate-600 list-disc list-inside">
-                                    {item.accomplishments.map(x => (
-                                        <li>{x}</li>
-                                    ))}
-                                </ul>
-                            </p>
+                            { item.accomplishments && (
+                                <p>
+                                    <ul className="ml-5 space-y-1 font-normal text-base text-slate-600 list-disc list-inside">
+                                        {item.accomplishments.map(x => (
+                                            <li>{x}</li>
+                                        ))}
+                                    </ul>
+                                </p>
+                            )}
                             <p>
                                 <SkillTagList tags={item.skills} />
                             </p>

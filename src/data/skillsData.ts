@@ -23,7 +23,7 @@ export const skillsData: SkillData[] = [
     },
     {
         category: "Architectures",
-        subSkills: ["Microservices", "Micro-frontends", "CQRS", "DDD", "REST", "Distributed Systems"],
+        subSkills: ["Microservices", "Micro-frontends", "CQRS", "DDD", "REST", "Distributed Systems", "Event-Driven"],
     },
     {
         category: "CI/CD",

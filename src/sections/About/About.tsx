@@ -9,30 +9,25 @@ const About = () => {
             <section id="about" ref={ref} className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28">
                 <SectionHeading>About me</SectionHeading>
                 <p className="mb-3">
-                    After graduating with a degree in{" "}
-                    <span className="font-medium">Accounting</span>, I decided to pursue my
-                    passion for programming. I enrolled in a coding bootcamp and learned{" "}
-                    <span className="font-medium">full-stack web development</span>.{" "}
-                    <span className="italic">My favorite part of programming</span> is the
-                    problem-solving aspect. I <span className="underline">love</span> the
-                    feeling of finally figuring out a solution to a problem. My core stack
-                    is{" "}
-                    <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-                    . I am also familiar with TypeScript and Prisma. I am always looking to
-                    learn new technologies. I am currently looking for a{" "}
-                    <span className="font-medium">full-time position</span> as a software
-                    developer.
+                    Hey, here you will find something about me.
                 </p>
-
+                <p className="mb-3">
+                    I've been in the software engineering field for around 10 years, 
+                    and it's been an exciting journey so far. Initially, I started as a back-end engineer, 
+                    but over the past 5 years, I've transitioned into a full-stack role. 
+                    It's allowed me to have a broader perspective and tackle challenges 
+                    from both the front and back ends.
+                </p>
+                <p className="mb-3">
+                    I have worked with all modern architectures using {" "}
+                    <span className="font-medium">.NET C#, JAVA and Node.js</span>{" "}on backend side, 
+                    and{" "}<span className="font-medium">React, TypeScript, Vue.Js</span> on front end side.
+                    This includes: monolith, microservices, micro-frontends, DDD, CQRS, event-driven architecture styles. I am always looking to learn new technologies.
+                </p>
                 <p>
-                    <span className="italic">When I'm not coding</span>, I enjoy playing
-                    video games, watching movies, and playing with my dog. I also enjoy{" "}
-                    <span className="font-medium">learning new things</span>. I am currently
-                    learning about{" "}
-                    <span className="font-medium">history and philosophy</span>. I'm also
-                    learning how to play the guitar.
+                    One of my favorite parts of the job is being responsible for designing 
+                    new services. I enjoy brainstorming and coming up with innovative 
+                    solutions that meet the needs of the users and the project goals.
                 </p>
             </section>
         </FallingDiv>
