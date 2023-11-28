@@ -1,4 +1,4 @@
-﻿import profilePic from "../../files/images/profile/developer-pic-1.png";
+﻿import profilePic from "../../files/images/profile/developer-pic-2.png";
 import FadeDiv from '../../components/animaitons/FadeDiv.tsx';
 import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -29,12 +29,12 @@ const Intro = () => {
                 </p>
             </FallingDiv>
             <FallingDiv direction="up" transition={{ delay: 0.1 }} className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium">
-                <a 
+                <a
                     href="#contact"
                     className="
                         group
                         bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full
-                        outline-none focus::scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition" 
+                        outline-none focus::scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
                     onClick={() => {
                        setActiveSection("Contact");
                        setTimeOfLastClick(Date.now());
@@ -57,7 +57,7 @@ const Intro = () => {
                 </a>
                 <a className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
                 focus::scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-                borderBlack" 
+                borderBlack"
                    href="https://github.com/saj113" target="_blank">
                     <FaGithubSquare />
                 </a>
