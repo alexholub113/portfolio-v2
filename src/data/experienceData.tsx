@@ -6,6 +6,27 @@ import {ExperienceData} from '../types.ts';
 const experienceData: ExperienceData[] = [
     {
         title: "Full-Stack Software Engineer",
+        company: "Goodfynd, Inc",
+        location: "USA",
+        description:
+            <span>At Goodfynd, a dynamic and innovative startup, my role as a Full Stack Software Engineer encompasses
+                both front-end and back-end development. I am actively involved in extending the functionality
+                and refactoring the system to enhance performance and user experience. My responsibilities include
+                reimagining the software architecture and integrating multiple architectural principles and styles,
+                ensuring a streamlined and efficient development process.</span>,
+        accomplishments: [
+            "Reimagined and integrated various architectural principles and styles, significantly accelerating the development process and enhancing system robustness.",
+            "Achieved a substantial improvement in query performance, enhancing the speed and efficiency of database interactions by several folds.",
+            "Mastered MongoDB queries and executed strategic refactoring, resulting in dramatically faster database read operations and overall system performance.",
+            "Proactively shared my expertise and experience with the team, fostering a collaborative environment and contributing to the collective improvement of our project.",
+            "Utilized Scrum methodology for estimating work hours and tracking progress.",
+        ],
+        skills: [".NET", "Architecture development", "Next.JS", "React", "AWS", "MongoDB"],
+        icon: React.createElement(SiDotnet),
+        date: "2023 - Present",
+    },
+    {
+        title: "Full-Stack Software Engineer",
         company: "Namecheap, Inc",
         location: "Ukraine/USA",
         description:
@@ -53,8 +74,8 @@ const experienceData: ExperienceData[] = [
             <span>Worked on dynamically controlling container handling equipment in a terminal. I integrated new
                 functionality into a tightly coupled system, performed extensive refactoring, and wrote numerous
                 procedures in Oracle.<br />Subsequently, I transitioned to a project focused on gaining experience
-                in distributed systems. This involved developing microservices using Java and React, applying 
-                Domain-Driven Design (DDD) principles, and utilizing Kafka for messaging. Although unfamiliar 
+                in distributed systems. This involved developing microservices using Java and React, applying
+                Domain-Driven Design (DDD) principles, and utilizing Kafka for messaging. Although unfamiliar
                 with these technologies initially, I dedicated myself to learning and studying extensively, making
                 it a highly engaging and enriching experience.</span>,
         accomplishments: [
