@@ -1,4 +1,5 @@
 ﻿import profilePic from "../../files/images/profile/developer-pic-2.png";
+import cv from "../../files/CV_OleksandrHolub.pdf";
 import FadeDiv from '../../components/animaitons/FadeDiv.tsx';
 import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -42,7 +43,7 @@ const Intro = () => {
                     Contact me here
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </a>
-                <a href="../../files/CV_OleksandrHolub.pdf" download className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
+                <a href={cv} download className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
                 outline-none focus::scale-110 hover:scale-110 active:scale-105 transition cursor-pointer
                 borderBlack">
                     Download CV
