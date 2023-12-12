@@ -5,9 +5,9 @@ import {ExperienceData} from '../types.ts';
 
 const experienceData: ExperienceData[] = [
     {
-        title: "Full-Stack Software Engineer",
+        title: "Full-Stack Software Engineer, Remote",
         company: "Goodfynd, Inc",
-        location: "USA",
+        location: "Houston, TX, USA",
         description:
             <span>At Goodfynd, a dynamic and innovative startup, my role as a Full Stack Software Engineer encompasses
                 both front-end and back-end development. I am actively involved in extending the functionality
@@ -24,9 +24,9 @@ const experienceData: ExperienceData[] = [
         date: "2023 - Present",
     },
     {
-        title: "Full-Stack Software Engineer",
+        title: "Full-Stack Software Engineer, Remote",
         company: "Namecheap, Inc",
-        location: "Ukraine/USA",
+        location: "Houston, TX, USA",
         description:
             <span>At namecheap.com and spaceship.com, the domain registrars and product platforms I worked on expanding the functionality specifically related to domain names.<br />My role involved API design, database work, microservice development, frontend development, and participating in the production deployment process.</span>,
         accomplishments: [
@@ -41,9 +41,9 @@ const experienceData: ExperienceData[] = [
         date: "2020 - 2023",
     },
     {
-        title: "Full-Stack Software Engineer",
+        title: "Full-Stack Software Engineer, Remote",
         company: "Dedicated Lab",
-        location: "Ukraine",
+        location: "Kharkiv, Ukraine",
         description:
             "In my role as a senior full stack software engineer, I worked on a project using " +
             ".NET Core for the backend and Vue for the frontend. My responsibilities included " +
@@ -61,9 +61,9 @@ const experienceData: ExperienceData[] = [
         date: "2019 - 2020",
     },
     {
-        title: ".NET / Java Software Engineer",
+        title: ".NET / Java Software Engineer, Onsite",
         company: "Akvelon (Tideworks Technology)",
-        location: "Ukraine",
+        location: "Kharkiv, Ukraine",
         description:
             <span>Worked on dynamically controlling container handling equipment in a terminal. I integrated new
                 functionality into a tightly coupled system, performed extensive refactoring, and wrote numerous
@@ -82,9 +82,9 @@ const experienceData: ExperienceData[] = [
         date: "2014 - 2029",
     },
     {
-        title: ".NET Software Engineer",
+        title: ".NET Software Engineer, Onsite",
         company: "Lavasoft",
-        location: "Ukraine",
+        location: "Kharkiv, Ukraine",
         description:
             "Developed windows extensions for anti-virus using .NET, WPF, MVVM.",
         skills: [".NET", "WPF", "MVVM"],
@@ -92,9 +92,9 @@ const experienceData: ExperienceData[] = [
         date: "2013 - 2014",
     },
     {
-        title: ".NET Software Engineer",
+        title: ".NET Software Engineer, Onsite",
         company: "SMISS",
-        location: "Ukraine",
+        location: "Kharkiv, Ukraine",
         description:
             "Coordinated with other engineers to evaluate and improve software.",
         skills: [".NET", "WinForms"],
