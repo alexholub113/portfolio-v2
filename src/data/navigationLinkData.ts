@@ -14,12 +14,12 @@ export const navigationLinkData: NavigationLinkData[] = [
         hash: "#projects",
     },
     {
-        name: "Skills",
-        hash: "#skills",
-    },
-    {
         name: "Experience",
         hash: "#experience",
+    },
+    {
+        name: "Skills",
+        hash: "#skills",
     },
     {
         name: "Contact",

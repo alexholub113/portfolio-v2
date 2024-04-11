@@ -20,8 +20,8 @@ function App() {
             <SectionDivider />
             <About />
             <Projects />
-            <Skills />
             <Experience />
+            <Skills />
             <Contact />
             <Footer />
         </ActiveSectionContextProvider>

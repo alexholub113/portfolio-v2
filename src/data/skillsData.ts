@@ -3,7 +3,7 @@ import {SkillData} from '../types.ts';
 export const skillsData: SkillData[] = [
     {
         category: "Languages",
-        subSkills: [".NET C#", "JavaScript", "Java"],
+        subSkills: [".NET C#", "JavaScript", "Java", "TypeScript"],
     },
     {
         category: "Back-End Frameworks",
@@ -11,7 +11,7 @@ export const skillsData: SkillData[] = [
     },
     {
         category: "Front-End Frameworks",
-        subSkills: ["React", "Vue", "TypeScript", "TailwindCSS", "MobX", "Redux", "Jest"],
+        subSkills: ["React", "Vue", "TailwindCSS", "MobX", "Redux", "Jest"],
     },
     {
         category: "Cloud AWS",
