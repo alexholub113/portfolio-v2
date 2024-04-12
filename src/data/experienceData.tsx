@@ -34,7 +34,7 @@ const experienceData: ExperienceData[] = [
                 development and actively participated in the production deployment process, ensuring seamless integration and
                 performance across all services.</span>,
         accomplishments: [
-            "Engineered microservices and micro-frontends, crafting a highly scalable application architecture that generated $200M in annual revenue.",
+            "Engineered microservices and micro-frontends, crafting a highly scalable web services that generated $200M in annual revenue.",
             "Utilized a suite of development tools including Vault, TeamCity, Jenkins, Docker, OpenSearch, and Kibana to enhance operational efficiencies and deployment processes.",
             "Designed and implemented domain-specific business logic, contributing to a 23% increase in global revenue.",
             "Led the system design for new features, strategically selecting technologies to optimize service performance and integration.",
