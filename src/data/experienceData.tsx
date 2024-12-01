@@ -6,6 +6,21 @@ import {ExperienceData} from '../types.ts';
 const experienceData: ExperienceData[] = [
     {
         title: "Senior Software Engineer, Remote",
+        company: "Microsoft",
+        location: "Redmond, WA, USA",
+        description:
+            <span>I work on the IDNA team, specifically developing and maintaining authentication and authorization components for .NET platforms that support Microsoft's security and identity services.</span>,
+        accomplishments: [
+            "Enhancing observability to detect and track potential hacker attacks within the Security team.",
+            "Working on open source and internal authentication and authorization solutions.",
+            "Developed a security solution to prevent implicit trust between USGov and public clouds by separating public keys.",
+        ],
+        skills: [".NET", "OAuth2.0", "OpenID", "OpenTelemetry", "Observability"],
+        icon: React.createElement(SiDotnet),
+        date: "2024 - Present",
+    },
+    {
+        title: "Senior Software Engineer, Remote",
         company: "Goodfynd, Inc",
         location: "Houston, TX, USA",
         description:
@@ -21,7 +36,7 @@ const experienceData: ExperienceData[] = [
         ],
         skills: [".NET", "React", "TypeScript", "AWS", "MongoDB"],
         icon: React.createElement(SiDotnet),
-        date: "2023 - Present",
+        date: "2023 - 2024",
     },
     {
         title: "Senior Software Engineer, Remote",

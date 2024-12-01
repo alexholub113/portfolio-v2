@@ -1,5 +1,5 @@
 ﻿import profilePic from "../../files/images/profile/developer-pic-2.png";
-import cv from "../../files/CV_OleksandrHolub.pdf";
+import cv from "../../files/Resume_AlexHolub.docx";
 import FadeDiv from '../../components/animaitons/FadeDiv.tsx';
 import FallingDiv from '../../components/animaitons/FallingDiv.tsx';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -46,7 +46,7 @@ const Intro = () => {
                 <a href={cv} target="_blank" className=" group bg-white px-7 py-3 flex items-center gap-2 rounded-full
                 outline-none focus::scale-110 hover:scale-110 active:scale-105 transition cursor-pointer
                 borderBlack">
-                    Open CV
+                    My Resume
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </a>
 
